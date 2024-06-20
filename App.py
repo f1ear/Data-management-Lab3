@@ -3,7 +3,6 @@
 # подключаем модули
 from sqlalchemy import create_engine, Table, MetaData, select, insert, and_
 from sqlalchemy.orm import sessionmaker
-from prettytable import PrettyTable
 
 # класс Database - отвечает за соединение с БД через SQLalchemy
 class Database:
